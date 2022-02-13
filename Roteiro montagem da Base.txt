@@ -1,0 +1,24 @@
+Montagem da base:
+
+1) Utilizada FAT ITEM com filtro do mes referência D0 (exemplo março 21)
+1.1) Agrupamento por carteirinha e sumarizado valor gasto.
+
+Obs: Refeito processo acima para D-1 (fev 21) e d-6(20/10 até 03/21)
+
+1.2) Criacao de coluna de pct acumulado (ranking) para cada periodo.
+1.3) Ponderacao de pesos para consideracao do ranking
+Sendo: D0 ==> 0,60, D1 ==> 0,25 e D6 == 0,15
+1.4) Novo ranking apos balanceamento
+
+
+2.0) Bases parciais de sinistro (Eletivo, PS e Inter) para D0 , D1 e D6
+2.1) Bases parciais de Qtd e clinicas para D6
+
+3.0) Join com tabela cadastro (carteira, plano, idade, uf, tempo_sas)
+
+
+
+
+
+
+
